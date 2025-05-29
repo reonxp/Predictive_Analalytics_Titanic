@@ -106,7 +106,7 @@ Dalam tahap ini, kami menerapkan beberapa algoritma machine learning untuk mempr
   - Kelebihan: Baik untuk menangani dataset besar dan kompleks.
   - Kekurangan: Model lebih sulit diinterpretasikan.
 
-### 3. Gradient Boosting  
+### Gradient Boosting  
 
   - Parameter: n_estimators=100, learning_rate=0.1
   - Kelebihan: Akurat dan baik dalam menangani interaksi antar fitur.
@@ -135,34 +135,34 @@ Dalam tahap evaluasi ini, kami menggunakan beberapa metrik untuk menilai perform
 
 ### Penjelasan Metrik yang Digunakan  
 
-- **Akurasi**:   
+- **Akurasi**:  
    - Merupakan rasio antara jumlah prediksi yang benar dengan total jumlah prediksi. Formula untuk akurasi adalah:  
-     \[  
-     \text{Akurasi} = \frac{TP + TN}{TP + TN + FP + FN}  
-     \]  
+     $$   
+     \text{Akurasi} = \frac{TP + TN}{TP + TN + FP + FN}   
+     $$  
    - Di mana:  
      - TP = True Positives (jumlah prediksi positif yang benar)  
      - TN = True Negatives (jumlah prediksi negatif yang benar)  
      - FP = False Positives (jumlah prediksi positif yang salah)  
      - FN = False Negatives (jumlah prediksi negatif yang salah)  
 
-- **Precision**:   
+- **Precision**:  
    - Mengukur seberapa banyak prediksi positif yang benar dari total prediksi positif. Formula:  
-     \[  
-     \text{Precision} = \frac{TP}{TP + FP}  
-     \]  
+     $$   
+     \text{Precision} = \frac{TP}{TP + FP}   
+     $$  
 
-- **Recall** (atau Sensitivity):   
+- **Recall** (atau Sensitivity):  
    - Mengukur seberapa banyak dari total data positif yang berhasil diprediksi dengan benar. Formula:  
-     \[  
-     \text{Recall} = \frac{TP}{TP + FN}  
-     \]  
+     $$   
+     \text{Recall} = \frac{TP}{TP + FN}   
+     $$  
 
-- **F1 Score**:   
+- **F1 Score**:  
    - Merupakan harmonic mean dari precision dan recall, memberikan keseimbangan antara keduanya. Formula:  
-     \[  
-     F1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}  
-     \]  
+     $$   
+     F1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}   
+     $$  
 
 ### Hasil Proyek Berdasarkan Metrik Evaluasi  
 
