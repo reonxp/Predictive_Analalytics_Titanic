@@ -137,9 +137,9 @@ Dalam tahap evaluasi ini, kami menggunakan beberapa metrik untuk menilai perform
 
 - **Akurasi**:  
    - Merupakan rasio antara jumlah prediksi yang benar dengan total jumlah prediksi. Formula untuk akurasi adalah:  
-     $$   
-     \text{Akurasi} = \frac{TP + TN}{TP + TN + FP + FN}   
-     $$  
+     ```  
+     Akurasi = (TP + TN) / (TP + TN + FP + FN)  
+     ```  
    - Di mana:  
      - TP = True Positives (jumlah prediksi positif yang benar)  
      - TN = True Negatives (jumlah prediksi negatif yang benar)  
@@ -148,21 +148,21 @@ Dalam tahap evaluasi ini, kami menggunakan beberapa metrik untuk menilai perform
 
 - **Precision**:  
    - Mengukur seberapa banyak prediksi positif yang benar dari total prediksi positif. Formula:  
-     $$   
-     \text{Precision} = \frac{TP}{TP + FP}   
-     $$  
+     ```  
+     Precision = TP / (TP + FP)  
+     ```  
 
 - **Recall** (atau Sensitivity):  
    - Mengukur seberapa banyak dari total data positif yang berhasil diprediksi dengan benar. Formula:  
-     $$   
-     \text{Recall} = \frac{TP}{TP + FN}   
-     $$  
+     ```  
+     Recall = TP / (TP + FN)  
+     ```  
 
 - **F1 Score**:  
    - Merupakan harmonic mean dari precision dan recall, memberikan keseimbangan antara keduanya. Formula:  
-     $$   
-     F1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}   
-     $$  
+     ```  
+     F1 = 2 * (Precision * Recall) / (Precision + Recall)  
+     ```  
 
 ### Hasil Proyek Berdasarkan Metrik Evaluasi  
 
